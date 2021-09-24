@@ -6,4 +6,4 @@ COPY . .
 
 RUN GO111MODULE=on go build -o application
 
-ENTRYPOINT ./application
+CMD ./application
